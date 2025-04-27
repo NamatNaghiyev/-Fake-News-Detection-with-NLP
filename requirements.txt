@@ -6,3 +6,4 @@ scikit-learn
 seaborn
 nltk
 tensorflow
+tf
