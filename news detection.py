@@ -47,8 +47,8 @@ st.markdown("""
 """)
 
 # Fayl yollarını istifadiçidən almaq
-true_path = st.text_input("True News CSV faylının yolu:", r'C:\Users\PC\OneDrive\İş masası\MY projects\True.csv')
-fake_path = st.text_input("Fake News CSV faylının yolu:", r'C:\Users\PC\OneDrive\İş masası\MY projects\Fake.csv')
+true_path = st.text_input("True News CSV faylının yolu:", r'True.csv.zip')
+fake_path = st.text_input("Fake News CSV faylının yolu:", r'Fake.csv.zip')
 
 # Fayllar varsa işləyir
 if os.path.exists(true_path) and os.path.exists(fake_path):
