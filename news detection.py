@@ -108,5 +108,5 @@ if os.path.exists(true_path) and os.path.exists(fake_path):
         else:
             st.warning("Xahiş edirik, mətn daxil edin.")
 else:
-    st.warning("Xiyar, CSV fayllarını doğru göstər. Yol səhvdir, düz elə!")
+    st.warning("CSV fayllarını doğru göstər. Yol səhvdir, düz elə!")
 
